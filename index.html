@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock Paper Scissor</title>
+</head>
+<body>
+    <div class="container">
+        <div class="scoreboard">
+            <div class="player">
+                <h2>Player</h2>
+                <span>0</span>
+            </div>
+            <div class="timer">
+                <h2>Timer</h2>
+                <span></span>
+            </div>
+            <div class="computer">
+                <h2>computer</h2>
+                <span>0</span>
+            </div>
+        </div>
+        <div class="messagesblock">
+            <p>Rock Paper Scissor game</p>
+        </div>
+        <div class="imagesblock">
+            <div class="hand">
+                <h2>Player</h2>
+                <img src="assets/rock.png" class="playerhand" alt="">
+            </div>
+            <div class="hand">
+                <h2>Computer</h2>
+                <img src="assets/rock.png" class="computerhand" alt="">
+            </div>
+        </div>
+        <div class="startbuttonblock reveal">
+            <button class="startbtn">Start Game</button>
+        </div>
+        <div class="text blocks hide">
+            <p>choose your weapon</p>
+        </div>
+        <div class="btnblock blocks hide">
+            <button class="btn gamebtn" id="rock">Rock</button>
+            <button class="btn gamebtn" id="paper">Paper</button>
+            <button class="btn gamebtn" id="scissors">Scissors</button>
+        </div>
+    </div>
+    <div class="resultsdisplay">
+        <div class="finalmessage">
+            <span></span>
+        </div>
+        <p class="computerresult">Computer Total Score is : <span></span></p>
+        <p class="playerresult">Your Total Score is : <span></span></p>
+        <div class="replaybtndiv">
+            <button class="btn">Replay</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
